@@ -9,6 +9,8 @@ My goal for this project is to create a business to customer-based website aimed
 
 TO begin with, I will make Balsamiq wireframes for both desktop and mobile viewports so that I can plan the layouts of both. I would like both viewports to look sleek and consistent while still maintaining the planned goal across all devices.
 
+<img src="images/index_desktop.png" alt="desktop view of index" width="80%" height="45%">
+
 ## Basic layout
 
 once I'm happy with my Wireframes, I create a basic boilerplate and link my stylesheet to my index page. I chose Ubuntu as my prefered font and included sans-serif as a websafe font. I chose Ubuntu because it is quirky and eye-catching while being solid and readable.
