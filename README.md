@@ -9,13 +9,15 @@ My goal for this project is to create a business to customer-based website aimed
 
 TO begin with, I will make Balsamiq wireframes for both desktop and mobile viewports so that I can plan the layouts of both. I would like both viewports to look sleek and consistent while still maintaining the planned goal across all devices.
 
-<img src="images/index_desktop.png" alt="desktop view of index" width="80%" height="45%">
+<img src="assets/images/index_desktop.png" alt="desktop view of index" width="80%" height="45%">
 
 ## Basic layout
 
 once I'm happy with my Wireframes, I create a basic boilerplate and link my stylesheet to my index page. I chose Ubuntu as my prefered font and included sans-serif as a websafe font. I chose Ubuntu because it is quirky and eye-catching while being solid and readable.
 
 I create my basic html pages 'Home', 'Gallery' and 'Contact Me!' then lay out my logo and basic list navigation bar. I am then able to link up the pages so that the navigation is functioning. I apply some styling to both the logo and navigation bar to get them sitting neatly at the top of the pages.
+
+After a very productive meeting with my mentor, I decide to move away from manually laying out my page. Instead I will re-work my navigation bar and logo using bootstrap. I have made this decision because I feel it will benefit my responsive design throughout the project.
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
 2. Scroll down to the *API Key* and click *Reveal*
