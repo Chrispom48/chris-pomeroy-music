@@ -17,4 +17,19 @@ background-color: darkslategrey;
 color: white;
 }
 
+.hero-image {
+  animation-name: hero-zoom;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
+}
+
 
