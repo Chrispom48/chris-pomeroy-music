@@ -32,4 +32,8 @@ color: white;
   }
 }
 
+.social-networks li{
+  display:inline;
+}
+
 
