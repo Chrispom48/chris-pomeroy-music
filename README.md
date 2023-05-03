@@ -10,6 +10,19 @@ My goal for this project is to create a business to customer-based website aimed
 TO begin with, I will make Balsamiq wireframes for both desktop and mobile viewports so that I can plan the layouts of both. I would like both viewports to look sleek and consistent while still maintaining the planned goal across all devices.
 
 <img src="assets/images/index_desktop.png" alt="desktop view of index" width="80%" height="45%">
+<img src="assets/images/gallery-desktop.png" alt="desktop view of index" width="80%" height="45%">
+<img src="assets/images/contact-desktop.png" alt="desktop view of index" width="80%" height="45%">
+
+<br>
+<br>
+To design the mobile wireframes, I want to centralize things more and have the navigation menu change to a more compact dropdown-style menu.
+<br>
+<br>
+<br>
+
+<img src="assets/images/index-mobile.png" alt="desktop view of index" width="40%" height="10%">
+<img src="assets/images/gallery-mobile.png" alt="desktop view of index" width="40%" height="10%">
+<img src="assets/images/contact-mobile.png" alt="desktop view of index" width="40%" height="10%">
 
 ## Basic layout
 
@@ -18,6 +31,10 @@ once I'm happy with my Wireframes, I create a basic boilerplate and link my styl
 I create my basic html pages 'Home', 'Gallery' and 'Contact Me!' then lay out my logo and basic list navigation bar. I am then able to link up the pages so that the navigation is functioning. I apply some styling to both the logo and navigation bar to get them sitting neatly at the top of the pages.
 
 After a very productive meeting with my mentor, I decide to move away from manually laying out my page. Instead I will re-work my navigation bar and logo using bootstrap. I have made this decision because I feel it will benefit my responsive design throughout the project.
+
+## Gallery Page
+
+I want the gallery page to be very simple, showcasing some action photos of me performing. As shown in the wireframes, I want the media to be shown in a masonry style using bootstrap to help with the responsiveness. The pictures should be big and bold on desktop, and then condensed into a column of photos on the mobile viewport.
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
 2. Scroll down to the *API Key* and click *Reveal*

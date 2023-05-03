@@ -32,8 +32,24 @@ color: white;
   }
 }
 
-.social-networks li{
-  display:inline;
+h2 {
+  margin-top: 70px;
 }
 
+.social-networks {
+  text-align: center;
+  margin-top: 30px;
+}
 
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 170%;
+  margin: 4%;
+}
+
+fieldset {
+  margin: 20px;
+}
