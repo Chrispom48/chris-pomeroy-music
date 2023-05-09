@@ -20,7 +20,7 @@ color: white;
 .hero-image {
   animation-name: hero-zoom;
   animation-duration: 10s;
-  animation-fill-mode: forwards;
+  animation-fill-mode:forwards;
 }
 
 @keyframes hero-zoom {
@@ -31,6 +31,10 @@ color: white;
     transform: scale(1.1);
   }
 }
+
+  .quotes {
+margin-top:10px;
+  }
 
 h2 {
   margin-top: 70px;
