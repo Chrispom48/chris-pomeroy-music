@@ -42,11 +42,11 @@ The home page begins with a header which includes the navigation bar and my logo
 
 ## Gallery Page
 
-I want the gallery page to be very simple, showcasing some action photos of me performing. As shown in the wireframes, I want the media to be shown in a masonry style using bootstrap to help with the responsiveness. The pictures should be big and bold on desktop, and then condensed into a column of photos on the mobile viewport.
+I want the gallery page to be very simple, showcasing some action photos of me performing. As shown in the wireframes, I want the media to be shown in a masonry style using bootstrap to help with the responsiveness. The pictures should be big and bold on desktop, and then condensed into a column of photos on the mobile viewport. The Gallery page will have the social media buttons at the bottom of the page being conistent across all pages, so that the user can click on them at any point which will take them to my socials in a different tab. I have done this so that they don't lose my website page, I want them to be able to come back to the website easily so that they can navigate to the Contact page.
 
 ## Contact page
 
-I have laid out the contact page with a large hero image that doesn't distract the user too much from the form, in which I will lay the contact form on top of.
+I have laid out the contact page with a large hero image that doesn't distract the user too much from the form, in which I will lay the contact form on top of. I want my face to sit to one side with the form next to it. I want this page to be clean and uncluttered because I want the user's focus to be on the form.
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
 2. Scroll down to the *API Key* and click *Reveal*
