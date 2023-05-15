@@ -1,80 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" >
-    <title>Contact Me!</title>
+  <!-- meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <title>Contact Me!</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Chris Pomeroy Music</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                  <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html">Contact Me!</a>
-              </li>
-              </li>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="row data-masonry={percentPosition: true;}">
-        
-        <img src="assets/images/pic4.jpg" alt="#" id="contact-image">
-        </div>
-        </div>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Chris Pomeroy Music</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact Me!</a>
+          </li>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- top image -->
+  <section class="container-fluid" id="contact-container">
+    <div class="row d-flex align-items-center">
+      <div class="col-12 col-md-8 px-0">
+        <img src="assets/images/pic4.jpg" alt="#" id="contact-image" class="w-100">
+      </div>
+
+      <!-- contact form -->
+      <div class="col-12 col-md-4 px-0" id="contact-form">
         <fieldset>
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter email address here">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email address here">
           </div>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Tell us the type of event!</option>
+          <select class="form-select" aria-label="Type of event">
+            <option selected disabled>Tell us the type of event!</option>
             <option value="1">Wedding</option>
             <option value="2">Pub</option>
             <option value="3">Festival</option>
             <option value="4">Private function</option>
             <option value="5">Other</option>
           </select>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Any other details you would like to add?</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="my-3">
+            <label for="notes" class="form-label">Any other details you would like to add?</label>
+            <textarea class="form-control" id="notes" rows="3"></textarea>
             <br>
             <button class="btn btn-primary" type="submit">Submit!</button>
           </div>
         </fieldset>
-        <div>
-        <ul class="social-networks">
-          <li>
-            <a href="https://www.facebook.com/chrispom48/" target="_blank">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/chrispom48/" target="_blank">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@chrispomeroy3353" target="_blank">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
-          </li>
-        </ul>
-      </footer>
-        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>       
+      </div>
+    </div>
+  </section>
+
+  <!-- footer / social media icons -->
+  <footer>
+    <ul class="social-networks">
+      <li>
+        <a href="https://www.facebook.com/chrispom48/" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/chrispom48/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@chrispomeroy3353" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/0cf2c262f2.js" crossorigin="anonymous"></script>
 </body>
 </html>

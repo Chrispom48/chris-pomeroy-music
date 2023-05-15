@@ -1,43 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Ubuntu&display=swap');
 
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  *{
-    margin:0;
-    padding:0;
-    border:0;
-  }
-
-body {
-font-family: 'Ubuntu', sans-serif;
-background-color: darkslategrey;
-color: white;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.hero-image {
+html, body {
+  height: 100%;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: darkslategrey;
+  color: white;
+}
+
+.navbar {
+  height: 92px;
+}
+
+#hero-outer {
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+#hero-image {
+  height: 90vh;
+  width: 100%;
+  background: url("../images/hero1.jpeg") no-repeat center top;
+  background-size: cover;
   animation-name: hero-zoom;
   animation-duration: 10s;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom {
-  from{
+  from {
     transform: scale(1);
   }
-  to{
+
+  to {
     transform: scale(1.1);
   }
 }
 
-  .quotes {
-margin-top:10px;
-  }
+.quotes {
+  margin-top: 10px;
+}
 
 h2 {
   margin-top: 70px;
+}
+
+#contact-container {
+  background-color: #010103;
 }
 
 .social-networks {
@@ -54,6 +77,10 @@ h2 {
   margin: 4%;
 }
 
-fieldset {
+.social-networks li a {
+  text-decoration: none;
+}
+
+#contact-form fieldset {
   margin: 20px;
 }
