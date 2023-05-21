@@ -84,3 +84,13 @@ h2 {
 #contact-form fieldset {
   margin: 20px;
 }
+
+ul {
+  background-color: rgb(28, 48, 48);
+  opacity: 0.8;
+}
+
+li {
+  color: white;
+  margin-left: 10px;
+}
