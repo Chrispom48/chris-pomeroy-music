@@ -59,5 +59,12 @@ I want the gallery page to be very simple, showcasing some action photos of me p
 
 I have laid out the contact page with a large hero image that doesn't distract the user too much from the form, in which I will lay the contact form on top of. I want my face to sit to one side with the form next to it. I want this page to be clean and uncluttered because I want the user's focus to be on the form.
 
+## Confirmation page
+
+The fields 'Email address' and 'Tell us the type of event!' are set to be required because these are vital pieces of information needed to process a users information and needs. i have included an optional field for other details in case the user would like to provide extra information. Once the user clicks submit, They will be taken to a confirmation page so that the user is happy their submission has been sent. After 10 seconds the user is redirected back to the home page. I have added the header and footer socials to the footer page to keep it consistent with the website.
+<br>
+<br>
+<img src="assets/images/feature05.png">
+
 
 
