@@ -84,7 +84,7 @@ https://chrispom48.github.io/chris-pomeroy-music/
 
 ## HTML
 
-For my html testing, I have used https://validator.w3.org/.
+For my html testing, I have used URL input into https://validator.w3.org/.
 
 ### index.html
 
@@ -98,8 +98,25 @@ For my html testing, I have used https://validator.w3.org/.
 
 <img src="documentation/html-test-gallery.png">
 
+1. I have removed highlighted closing tag and error still shows.
 
+### contact.html
 
+<img src="documentation/html-test-contact.png">
+
+Need to address these, tried addressing number 5 but I can see a closing form tag.
+
+### confirmation.html
+
+<img src="documentation/html-test-confirmation.png">
+
+## CSS
+
+For my CSS stylesheet testing, I have used direct input into https://jigsaw.w3.org/css-validator/.
+
+### style.css
+
+<img src="documentation/css-test-stylesheet.png">
 
 
 
