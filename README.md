@@ -40,7 +40,7 @@ After a very productive meeting with my mentor, I decide to move away from manua
 
 # Home Page
 
-The home page begins with a header which includes the navigation bar and my logo in slightly larger font. In the mobile viewport, The navigation bar condenses into a neat dropdown menu to access navigation. I have opted for a dark slate grey and black colour scheme because I think it looks neat and classy. This colour scheme also contrasts with the home page hero image which makes it pop out of the page. I have also added an audio player into the header with me singing to give the user a better idea of what I sound like. In the wireframes I had put the audio player in the gallery, but I have now decided to put it on the home page because I believe users will spend more time there reading through the quotes than looking at the images in the gallery. Users will need to play it manually as I don't want to force them to listen. I am not totally happy with the positioning of the audio player, so I will come back to it later.
+The home page begins with a header which includes the navigation bar and my logo in slightly larger font. In the mobile viewport, The navigation bar condenses into a neat dropdown menu to access navigation. I have opted for a dark slate grey and black colour scheme because I think it looks neat and classy. This colour scheme also contrasts with the home page hero image which makes it pop out of the page. I have also added an audio player into the header with me singing to give the user a better idea of what I sound like. In the wireframes I had put the audio player in the gallery, but I have now decided to put it on the home page because I believe users will spend more time there reading through the quotes than looking at the images in the gallery. Users will need to play it manually as I don't want to force them to listen. I am not totally happy with the positioning of the audio player, so I will come back to it later. I customized the header and footer to have a linear-gradient to smooth out the pages and add an attractive twist to the website.
 <br>
 <br>
 <img src="documentation/feature03.png">
@@ -76,9 +76,46 @@ In the future, I hope to add a video player showcasing me on stage performing. I
 
 # Deployment
 
+In the GitHub repository https://github.com/Chrispom48/chris-pomeroy-music, navigate to the Settings tab 
+- From the pages section, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment and live site.
+
 The site has been deployed to GitHub Pages. The live link to the website can be found here:
 
 https://chrispom48.github.io/chris-pomeroy-music/
+
+## Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/Chrispom48/chris-pomeroy-music) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/Chrispom48/chris-pomeroy-music.git`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Chrispom48/chris-pomeroy-music)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+# Credits
+
+For guidance on parts of my project I used https://www.w3schools.com/default.asp to help with building and fixing bugs.
+
+For my footer icons, I used Fontawesome kits:
+https://fontawesome.com/icons/youtube?f=brands&s=solid
+https://fontawesome.com/icons/instagram?f=brands&s=solid
+https://fontawesome.com/icons/facebook?f=brands&s=solid
+
+As well as using **w3schools** for guidance, I also had help from my mentor **Tim Nelson** and want to thank him for guiding me through the steps of this project and answering a plethora of my questions.
+
+for README and testing help, I used Tim Nelson's [Markdown Builder](https://traveltimn.github.io/markdown-builder) 
 
 # Testing
 
