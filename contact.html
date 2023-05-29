@@ -28,12 +28,12 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="contact.html">Contact Me!</a>
-          </li>
-          </li>
           </li>
         </ul>
       </div>
@@ -48,15 +48,15 @@
       </div>
 
       <!-- contact form -->
-      <form action="confirmation.html">
-        <div class="col-12 col-md-4 px-0" id="contact-form">
+      <div class="col-12 col-md-4 px-0" id="contact-form">
+          <form action="confirmation.html">
           <fieldset>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
               <input type="email" class="form-control" id="email" placeholder="Enter email address here" required>
             </div>
             <select class="form-select" aria-label="Type of event" required>
-              <option selected disabled>Tell us the type of event!</option>
+              <option value="" selected disabled>Tell us the type of event!</option>
               <option value="1">Wedding</option>
               <option value="2">Pub</option>
               <option value="3">Festival</option>
@@ -70,10 +70,10 @@
               <button class="btn btn-primary" type="submit">Submit!</button>
             </div>
           </fieldset>
-        </div>
+        </form>
+      </div>
     </div>
   </section>
-  </form>
 
   <!-- footer / social media icons -->
   <footer>
