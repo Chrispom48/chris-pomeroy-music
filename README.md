@@ -165,6 +165,18 @@ For my CSS stylesheet testing, I have used direct input into https://jigsaw.w3.o
 
 1. I fixed this error by changing 'background-color' to 'background-image', This in turn fixed all Parse errors.
 
+## Responsiveness
 
+To test responsiveness, I have created two tables that include information about my responsivess testing techniques. Table 1 shows testing results of responsiveness towards different viewports, and table 2 shows results of responsiveness towards a selection of popular browsers.
+
+### Table 1
+
+<img src="documentation/table1.png">
+
+The table shows a good responsivess towards different devices, although when the viewport gets as small as a Galaxy S9+, The header and footer become slightly cluttered and squeezed. In summary, the responsiveness between mobile, tablet and desktop is excellent. Having a three column theme on desktop, two columns on tablet and condensing to a single column on mobile.
+
+### Table 2
+
+What to put here?
 
 
