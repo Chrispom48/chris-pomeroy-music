@@ -17,12 +17,17 @@ body > footer {
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: darkslategrey;
+  background-color: black;
   color: white;
+}
+
+.index-background {
+background-color: darkslategray;
 }
 
 .navbar {
   height: 92px;
+  background-image: linear-gradient(darkslategray, black);
 }
 
 #hero-outer {
@@ -85,6 +90,7 @@ h2 {
 
 #contact-form fieldset {
   margin: 20px;
+  margin-right: 70px;
 }
 
 footer ul {
@@ -93,7 +99,7 @@ footer ul {
  
 ul{
   opacity: 0.8;
-  margin-top: 10px;
+  margin-top:10px;
   font-size: large;
 }
 
@@ -110,10 +116,6 @@ li {
   font-size: 20px;
 }
 
-#navbarText {
-  margin-bottom: 6px;
-}
-
 #logo {
   font-size: x-large;
 }
@@ -121,5 +123,11 @@ li {
 @media only screen and (min-width:500px){
   #logo{
     font-size:xx-large
+  }
+}
+
+@media only screen and (max-width:991px){
+  ul{
+    background-color: black;
   }
 }
