@@ -131,3 +131,11 @@ li {
     background-color: black;
   }
 }
+
+img-thumbnail {
+  margin: 5px;
+}
+
+.pic {
+  padding: 5px;
+}
