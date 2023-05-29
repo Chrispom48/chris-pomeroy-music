@@ -88,7 +88,7 @@ h2 {
 }
 
 ul {
-  background-color: linear-gradient(darkslategray, black);
+  background-image: linear-gradient(darkslategray, black);
   opacity: 0.8;
   margin-top: 10px;
   font-size: large;
@@ -109,7 +109,6 @@ li {
 
 #navbarText {
   margin-bottom: 6px;
-
 }
 
 #logo {
