@@ -90,25 +90,33 @@ For my html testing, I have used URL input into https://validator.w3.org/.
 
 <img src="documentation/html-test-index.png">
 
-1. The error is part of the bootstrap system, so is not an error within my custom code.
-
-2. I have opted not to use a heading or div here because I believe it is not needed.
+1. I fixed the error by merging the two class attributes into one.
+2. I do not believe I need a header or div element here.
 
 ### gallery.html
 
 <img src="documentation/html-test-gallery.png">
 
-1. I have removed highlighted closing tag and error still shows.
+1. I fixed this error by moving the List closing tags immediately after each List opening tag and its contents.
 
 ### contact.html
 
 <img src="documentation/html-test-contact.png">
 
-Need to address these, tried addressing number 5 but I can see a closing form tag.
+1. I fixed this error by moving the List closing tags immediately after each List opening tag and its contents.
+2. I fixed this error by moving the List closing tags immediately after each List opening tag and its contents.
+3. I fixed this error by adding an empty value attribute.
+4. I fixed this error by moving the elements around and making sure all div elements had opening and closing tags.
+5. I fixed this error by adding a closing tag to the form element.
+6. I do not believe I need a header or div element here.
+7. I fixed this error by adjusting the position of the form closing tag.
 
 ### confirmation.html
 
 <img src="documentation/html-test-confirmation.png">
+
+1. I fixed this error by moving the List closing tags immediately after each List opening tag and its contents.
+2. I fixed this error by moving the List closing tags immediately after each List opening tag and its contents.
 
 ## CSS
 
@@ -117,6 +125,8 @@ For my CSS stylesheet testing, I have used direct input into https://jigsaw.w3.o
 ### style.css
 
 <img src="documentation/css-test-stylesheet.png">
+
+1. I fixed this error by changing 'background-color' to 'background-image', This in turn fixed all Parse errors.
 
 
 
