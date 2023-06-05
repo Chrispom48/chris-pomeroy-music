@@ -3,7 +3,7 @@
 # Milestone project 1 - Chris Pomeroy Music
 
 
-My goal for this project is to create a business to customer-based website aimed at users who would like to book an entertainer for their wedding or function. Grabbing a users attention with media combined with a simple layout that is consistent throughout the pages. With these targets in mind, I hope to capture the users attention and make it easy for them to end up at the booking page.
+My goal for this project is to create a business to customer-based website aimed at users who would like to book an entertainer for their wedding or function. Grabbing a user's attention with media combined with a simple layout that is consistent throughout the pages. With these targets in mind, I hope to capture the users attention and make it easy for them to end up at the booking page.
 
 # Balsamiq wireframe
 
@@ -56,7 +56,7 @@ I have laid out the contact page with a large hero image that doesn't distract t
 
 # Confirmation page
 
-The fields 'Email address' and 'Tell us the type of event!' are set to be required because these are vital pieces of information needed to process a users information and needs. i have included an optional field for other details in case the user would like to provide extra information. Once the user clicks submit, They will be taken to a confirmation page so that the user is happy their submission has been sent. After 10 seconds the user is redirected back to the home page. I have added the header and footer socials to the footer page to keep it consistent with the website.
+The fields 'Email address' and 'Tell us the type of event!' are set to be required because these are vital pieces of information needed to process a users information and needs. I have included an optional field for other details in case the user would like to provide extra information. Once the user clicks submit, They will be taken to a confirmation page so that the user is happy that their submission has been sent. After 10 seconds the user is redirected back to the home page. I have added the header and footer socials to the footer page to keep it consistent with the website.
 
 <img src="documentation/feature05.png">
 
@@ -110,13 +110,13 @@ For my CSS stylesheet testing, I have used direct input into https://jigsaw.w3.o
 
 ## Responsiveness
 
-To test responsiveness, I have created two tables that include information about my responsivess testing techniques. Table 1 shows testing results of responsiveness towards different viewports, and table 2 shows results of responsiveness towards a selection of popular browsers.
+To test responsiveness, I have created two tables that include information about my responsiveness testing techniques. Table 1 shows testing results of responsiveness towards different viewports, and table 2 shows results of responsiveness towards a selection of popular browsers.
 
 ### Table 1
 
 <img src="documentation/table1.png">
 
-The table shows a good responsivess towards different devices, although when the viewport gets as small as a Galaxy S9+, The header and footer become slightly cluttered and squeezed. In summary, the responsiveness between mobile, tablet and desktop is excellent. Having a three column theme on desktop, two columns on tablet and condensing to a single column on mobile.
+The table shows a good responsivess towards different devices, although when the viewport gets as small as a Galaxy S9+, The header and footer become slightly cluttered and squeezed. In summary, the responsiveness between mobile, tablet and desktop is excellent. The gallery page is particularly neat; having a three column theme on desktop, two columns on tablet and condensing to a single column on mobile.
 
 ### Table 2
 
@@ -130,11 +130,15 @@ Microsoft Edge was similar to Google Chrome in that everything seems to be worki
 
 <img src="documentation/testing-edge.png">
 
-I encountered a slight change when testing on Mozilla Firefox in that it outs a small section of background underneath the footer which is not present in the other two browsers.
+I encountered a slight change when testing on Mozilla Firefox in that it puts a small section of background underneath the footer which is not present in the other two browsers.
 
 <img src="documentation/testing-firefox.png">
 
 # Future Improvements
+
+I am still undecided about the positioning of the form in mobile view. currently it sits in a 'from the left' positioning, but I may change it to have a more central positioning.
+
+<img src="documentation/future-form.png">
 
 In the future, I hope to add a video player showcasing me on stage performing. I did not add this to my minimum viable product because I don't want to clutter the inital website, I could not find a tidy place for it to sit so I decided to leave it out. Too much information for the user can be overwhelming so I have opted for the 'less is more' approach for now.
 
@@ -176,6 +180,8 @@ For my footer icons, I used Fontawesome kits:
 https://fontawesome.com/icons/youtube?f=brands&s=solid
 https://fontawesome.com/icons/instagram?f=brands&s=solid
 https://fontawesome.com/icons/facebook?f=brands&s=solid
+
+For the layout of my site and basic structures, I used [Bootstrap]https://getbootstrap.com/docs/4.5/getting-started/introduction/. 
 
 As well as using **w3schools** for guidance, I also had help from my mentor **Tim Nelson** and want to thank him for guiding me through the steps of this project and answering a plethora of my questions.
 
